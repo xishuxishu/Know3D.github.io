@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners -->
+  <meta name="description" content="Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models">
+  <meta property="og:title" content="Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models"/>
+  <meta property="og:description" content="Project page for Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models">
+  <meta name="twitter:description" content="Project page for Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="3D generation, vision-language models, Know3D, multimodal large language models, back-view generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="" target="_blank">Wenyue Chen<sup>1,2*</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="" target="_blank">Wenjue Chen<sup>1*</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=8eTLCkwAAAAJ&hl" target="_blank">Peng Li<sup>3</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://qinghew.github.io/" target="_blank">Qinghe Wang<sup>4</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://stephenjia.github.io/" target="_blank">Xu Jia<sup>4</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=VRgciTQAAAAJ&hl=en" target="_blank">Heliang Zheng<sup>2</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="" target="_blank">Rongfei Jia<sup>2</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu<sup>3&dagger;</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=CEEvb64AAAAJ&hl" target="_blank">Ronggang Wang<sup>1&dagger;</sup></a>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>Peking University,&nbsp;
+                <sup>2</sup>Math Magic,&nbsp;
+                <sup>3</sup>The Hong Kong University of Science and Technology,&nbsp;
+                <sup>4</sup>Dalian University of Technology
+              </span>
+            </div>
+
+            <div class="is-size-6 publication-authors" style="margin-top: 8px;">
+              <span class="author-block">
+                <sup>*</sup>Equal contribution.&nbsp;&nbsp;
+                <sup>&dagger;</sup>Corresponding authors.
+              </span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2510.07723" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://github.com/IGL-HKUST/Know3D" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div style="margin: 5px 0; text-align: center;">
+          <video poster="" id="teaser" autoplay muted loop controlsList="nodownload" playsinline>
+            <source src="static/assets/teaser.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          We introduce <strong>Know3D</strong>, a novel framework that incorporates multimodal large language model knowledge
+          into 3D generative processes, enabling language-controllable generation of unseen regions for 3D assets.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Recent advances in 3D generation have improved the fidelity and geometric details of synthesized 3D assets.
+              However, due to the inherent ambiguity of single-view observations and the lack of robust global structural priors
+              caused by limited 3D training data, the unseen regions generated by existing models are often stochastic and
+              difficult to control, which may sometimes fail to align with user intentions or produce implausible geometries.
+              In this paper, we propose Know3D, a novel framework that incorporates rich knowledge from multimodal large language
+              models into 3D generative processes via latent hidden-state injection, enabling language-controllable generation
+              of the back-view for 3D assets. We utilize a VLM-diffusion-based model, where the VLM is responsible for semantic
+              understanding and guidance. The diffusion model acts as a bridge that transfers semantic knowledge from the VLM
+              to the 3D generation model. In this way, we successfully bridge the gap between abstract textual instructions and
+              the geometric reconstruction of unobserved regions, transforming the traditionally stochastic back-view
+              hallucination into a semantically controllable process, demonstrating a promising direction for future 3D
+              generation models.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="hero teaser" style="background-color: #fafafa;">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div style="margin: 5px 0; text-align: center;">
+          <h2 class="title is-3">Method</h2>
+          <img src="static/assets/pipeline.png" alt="Know3D pipeline" style="max-width: 100%; height: auto; border-radius: 8px; display: inline-block;">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+We propose Know3D, a novel knowledge-guided 3D generation framework that uses vision-language models (VLMs) to achieve controllable generation of unobserved regions. Instead of directly integrating high-level VLM features into the 3D generation pipeline, our method employs a diffusion model as an intermediate bridge to convert semantic knowledge into structural priors in the image space.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div style="margin: 5px 0; text-align: center;">
+          <h2 class="title is-3">Comparison</h2>
+          <div style="margin-top: 30px;"></div>
+          <video poster="" id="teaser-comparison" autoplay muted loop controlsList="nodownload" playsinline>
+            <source src="static/assets/compare.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser" style="background-color: #f5f5f5;">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div style="margin: 5px 0; text-align: center;">
+          <h2 class="title is-3">More Results</h2>
+          <div style="margin-top: 10px;"></div>
+
+          <video poster="" id="teaser-more1" autoplay muted loop controlsList="nodownload" playsinline>
+            <source src="static/assets/more1.mp4" type="video/mp4">
+          </video>
+
+          <video poster="" id="teaser-more2" autoplay muted loop controlsList="nodownload" playsinline>
+            <source src="static/assets/more2.mp4" type="video/mp4">
+          </video>
+
+          <video poster="" id="teaser-more3" autoplay muted loop controlsList="nodownload" playsinline>
+            <source src="static/assets/more3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BibTeX citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{chen2025know3d,
+  title={Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models},
+  author={Wenyue Chen and Wenjue Chen and Peng Li and Qinghe Wang and Xu Jia and Heliang Zheng and Rongfei Jia and Yuan Liu and Ronggang Wang},
+  year={2025},
+  journal={arXiv preprint arXiv:2510.07723}
+}</code></pre>
+    </div>
+  </section>
+  <!-- End BibTeX citation -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              We thank the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> team for providing this amazing website template.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+  <!-- End of Statcounter Code -->
+
+</body>
+</html>
